@@ -127,21 +127,6 @@ p, img{
     background-color: var(--gray-500);
     color: var(--gray-200);
 }
-
-.card{
-    height: 285px;
-    margin-top: -65px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    overflow-y: auto ;
-}
-
-.card::-webkit-scrollbar{
-    background-color: var(--gray-600);
-    border-right: 2px solid var(--gray-500);
-    width: 12px;
-    border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }     
 
