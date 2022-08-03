@@ -1,0 +1,12 @@
+header{
+    background: var(--gray-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.75rem;
+}
+
+header img{
+    background: var(--gray-700);
+}
+

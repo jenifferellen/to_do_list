@@ -1,0 +1,151 @@
+.content{
+    display: flex;
+    gap: 64px;
+    background: none;
+    flex-direction: column;
+    margin-top: -28px;
+}
+
+.input{
+    background: var(--gray-500);
+    height: 54px;
+    border-radius: 6px;
+    border: none;
+    width: 39.875rem;
+    padding: 1rem;
+    color: var(--gray-200);
+    outline: none;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+
+}
+
+.button{
+    background: var(--blueDark);
+    border: none;
+    border-radius: 6px;
+    height: 54px;
+    width: 5.125rem;
+    color: var(--gray-100);
+    padding: 1rem;
+
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.225rem;
+
+    display: flex;
+    align-items:center ;
+}
+
+.button:hover{
+    background: var(--purpleDark);
+}
+
+
+p{
+    display: flex ;
+    justify-content: space-between;
+    gap: 0.4rem;
+}
+
+p, img{
+    background: transparent;
+}
+
+.divone{
+    display: flex;
+    gap: 8px;
+    background: none;
+}
+
+
+
+.divtwo{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--gray-500);
+    box-sizing: border-box;
+    padding-bottom: 24px;
+}
+
+.divUpsideOne{
+    display: flex;
+    gap: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.14rem;
+    line-height: 17px;
+    color: var(--blue);
+
+}
+
+.divUpsideTwo{
+    display: flex;
+    gap: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.14rem;
+    line-height: 17px;
+    color: var(--purple);
+}
+
+
+
+.divBigThree{
+    height: 287px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-300);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.button1{
+    border-radius: 9px;
+    padding: 0 6px;
+    border: none;
+    background-color: var(--gray-500);
+    color: var(--gray-200);
+}
+
+
+.button2{
+    border-radius: 9px;
+    padding: 0 6px;
+    border: none;
+    background-color: var(--gray-500);
+    color: var(--gray-200);
+}
+
+.card{
+    height: 285px;
+    margin-top: -65px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow-y: auto ;
+}
+
+.card::-webkit-scrollbar{
+    background-color: var(--gray-600);
+    border-right: 2px solid var(--gray-500);
+    width: 12px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}     
+
+.card::-webkit-scrollbar-thumb{
+    background-color: var(--purpleDark);
+    border-radius: 5px;
+}
