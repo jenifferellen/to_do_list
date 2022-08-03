@@ -12,8 +12,6 @@ export function Content({name, onDeleteTask, id, estado, funcaoDoEstado, onHandl
     function handleDeleteTask(){
         console.log('deletar')
         onDeleteTask(id)
-       // onHandleTotalTasks()
-
     }
 
     const[hasBackground, setHasBackground] = useState(false)
@@ -21,9 +19,7 @@ export function Content({name, onDeleteTask, id, estado, funcaoDoEstado, onHandl
     function handleChangeColor(){
         console.log('chamando')
         setHasBackground(!hasBackground )
-
         onHandleTotalTasks(id)
-        
     }
     
 
